@@ -20,7 +20,13 @@ const styles = {
 export const App = () => {
   return (
     <div style={styles}>
-      <Profile {...user} />
+      <Profile
+        userName={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
