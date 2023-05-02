@@ -20,6 +20,7 @@ const styles = {
 export const App = () => {
   return (
     <div style={styles}>
+      
       <Profile
         userName={user.username}
         tag={user.tag}
