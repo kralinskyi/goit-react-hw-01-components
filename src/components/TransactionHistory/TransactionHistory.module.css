@@ -1,0 +1,44 @@
+.transaction-history {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для таблиці */
+  text-align: center;
+}
+
+.transaction-history th,
+.transaction-history td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.transaction-history th {
+  background-color: #61e609;
+  font-weight: bold;
+  color: #333;
+}
+.transaction-history tr {
+  font-size: 22px;
+}
+
+.transaction-history tr:nth-child(even) {
+  background-color: #73f0ab; /* Фон парних рядків */
+}
+
+.transaction-history tr:nth-child(odd) {
+  background-color: #74c482; /* Фон парних рядків */
+}
+rgb(38, 80, 57) .transaction-history td {
+  font-size: large;
+}
+
+.transaction-history td,
+.transaction-history th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.transactionTd {
+  text-align: center;
+  width: 200px;
+}
