@@ -1,8 +1,9 @@
 .transaction-history {
   width: 60%;
   border-collapse: collapse;
-  margin: 20px 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для таблиці */
+  margin: 0;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
@@ -28,7 +29,8 @@
 .transaction-history tr:nth-child(odd) {
   background-color: #74c482; /* Фон парних рядків */
 }
-rgb(38, 80, 57) .transaction-history td {
+
+.transaction-history td {
   font-size: large;
 }
 
