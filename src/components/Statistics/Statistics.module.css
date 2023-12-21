@@ -17,6 +17,7 @@
   list-style: none;
   display: flex;
   margin: 5px;
+  padding: 0;
 }
 
 .title {
