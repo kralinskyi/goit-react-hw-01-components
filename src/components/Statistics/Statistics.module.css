@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   margin-top: 50px;
+  border: 1px dotted salmon;
+  background-color: honeydew;
 }
 .item {
   background-color: beige;
@@ -11,6 +13,8 @@
   min-width: 100px;
   align-items: center;
   font-size: 22px;
+  border-radius: 50px;
+  margin: 5px;
 }
 
 .stat-list {
