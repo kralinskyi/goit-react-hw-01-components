@@ -1,0 +1,49 @@
+/* Стилі для компонента Comments */
+.comments-title {
+  margin: 0;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #999;
+}
+
+.comments {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Стилі для компонента Comment */
+.comment {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  text-align: end;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+  text-align: end;
+}
+
+.comment:hover {
+  background-color: #eaeaea;
+}
